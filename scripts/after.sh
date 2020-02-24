@@ -1,4 +1,3 @@
 #!/bin/bash
-mkdir /home/ubuntu/sample/
-cd /home/ubuntu/sample/
+cd /home/ubuntu/CodePipeline_Assignment
 pip3 install --user -r requirements.txt
