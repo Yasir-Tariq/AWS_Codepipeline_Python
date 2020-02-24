@@ -1,4 +1,3 @@
-# if ! [ -x "$(command -v python3-pip)" ]; then apt-get install -y python3-pip >&2;   exit 1; fi # install python3-pip if not already installed
 #!/bin/bash
-cd /home/ubuntu/CodePipeline_Assignment
-pip3 install --user -r requirements.txt
+apt-get install python3-pip -y
+# pip3 install --user -r requirements.txt
